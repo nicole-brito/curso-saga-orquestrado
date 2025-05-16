@@ -1,6 +1,5 @@
 package br.com.microservices.orchestrated.orchestratorservice.config.kafka;
 
-import br.com.microservices.orchestrated.orchestratorservice.core.ETopics;
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
@@ -16,7 +15,7 @@ import org.springframework.kafka.core.*;
 import java.util.HashMap;
 import java.util.Map;
 
-import static br.com.microservices.orchestrated.orchestratorservice.core.ETopics.*;
+import static br.com.microservices.orchestrated.orchestratorservice.core.enums.ETopics.*;
 
 @EnableKafka
 @Configuration
